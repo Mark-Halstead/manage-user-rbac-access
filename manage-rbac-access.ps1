@@ -2,6 +2,7 @@
 Write-Host "Logging in to Azure..."
 Connect-AzAccount
 
+
 # Function to list RBAC roles for a given user or group
 function List-RBAC {
     $principalId = Read-Host "Enter the object ID of the user or group"
